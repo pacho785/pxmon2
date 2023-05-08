@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>POXMON !</title>
+</head>
+<body>
+<h1>POXMON ! 🥊 🔩 🐉</h1>
+<script src="poxmon/poxmon.js">
+        
+</script>
+<section id ="seleccionar-mascota">
+    <h2>Elige tu compañero:</h2>
+
+    <div>
+    <label for="URSHIFU">URSHIFU</label>
+    <input type="radio" name="mascota" id="URSHIFU" >
+    </div>
+
+    <div>
+    <label for="METAGROSS">METAGROSS</label>
+    <input type="radio" name="mascota" id="METAGROSS">
+    </div>
+
+    <div>
+    <label for="ZEKROM">ZEKROM</label>
+    <input type="radio" name="mascota"  id="ZEKROM" >
+    </div>
+
+    <div>
+    <label for="LUCARIO">LUCARIO</label>
+    <input type="radio" name="mascota"  id="LUCARIO" >
+    </div>
+
+    <button id="boton-compañero">Seleccionar</button>
+
+</section>
+<section id="seleccionar-ataque">
+    <h2>Elige tu asalto:</h2>
+        <p>Tu compañero <span id="compañero-jugador"></span> tiene <span>3</span> vidas</p>
+        <p>el compañero<span id="compañero-enemigo"></span> del enemigo tiene <span>3</span> vidas</p>
+    <p>
+        <button id="boton-lucha">PUM TE PEGO 🥊</button>
+        <button id="boton-acero">TORNILLO 🔩</button>
+        <button id="boton-dragon">LAGARTO CULO 🐉</button>
+        <!--Lucha le gana a lagarto
+            Tornillo le gana a lcuha
+            Lagarto le gana a tornillo-->
+    </p>    
+</section>
+<section id="mensajes">
+    <p>Tu compañero ataca con PUM TE PAGO, el compañero del enemigo ataca con LAGARTO CULO - GANASTE 🎉</p>
+</section>
+<section id="reiniciar">
+
+    <button id="boton-reset">Reset</button>
+
+</section>
+
+</body>
+</html>
